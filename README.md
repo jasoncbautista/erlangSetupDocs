@@ -118,3 +118,8 @@ Now go to queue -> broadcast a.b.*
 publish -> a.b.c
 
 any data for payload
+
+
+feed-tools setup:
+
+ sudo apt-get install python-setuptools python-virtualenv 
