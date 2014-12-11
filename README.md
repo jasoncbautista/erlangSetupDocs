@@ -1,6 +1,23 @@
 
 
+redbug:start("foo_srv"). // trace of thigns that happen 
 
+
+
+
+
+
+Pid = erlang.whereis(foo_srv).
+
+l make bare min
+make bootstrap
+
+
+rm -rf bootstrap
+
+
+
+one_for_one = one restarts, onlyone restart
 
 
 SqorWeb sockets
