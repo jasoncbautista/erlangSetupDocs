@@ -1,6 +1,13 @@
+Sqor ft rest
 
+cd into deps
+cd into feedtools
+install python deps in readme
 
+cd out
+rm deps inside ft_rest
 
+make
 
 
 SqorWeb sockets
