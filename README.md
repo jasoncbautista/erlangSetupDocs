@@ -140,3 +140,29 @@ any data for payload
 feed-tools setup:
 
  sudo apt-get install python-setuptools python-virtualenv 
+
+
+
+
+
+ Stats Inc:
+
+ L = si_api:get_stats(<<"nfl">>, <<"player_ytd">>, [<<"323273">>], [])
+ 
+ Print without bs
+
+
+ rp(L). 
+
+
+maps:get(<<"league">>, L)
+
+M = #{key => 23442}.   
+
+Pattern match our name out:
+
+ {key := Key} = M. 
+
+
+
+
