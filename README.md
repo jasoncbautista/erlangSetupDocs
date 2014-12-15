@@ -1,7 +1,15 @@
+Sqor ft rest
 
+cd into deps
+cd into feedtools
+install python deps in readme
 
 redbug:start("foo_srv"). // trace of thigns that happen 
+=======
+cd out
+rm deps inside ft_rest
 
+make
 
 
 
