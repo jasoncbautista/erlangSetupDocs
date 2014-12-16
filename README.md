@@ -75,6 +75,8 @@ sudo service rabbitmq-server start
 
 Rabbit:
 
+how to subscribe to websockets 
+
 http://localhost:15672/
 
 
@@ -172,5 +174,5 @@ Pattern match our name out:
  {key := Key} = M. 
 
 
-
+erl -pa ebin deps/*/ebin -s sqor_ft_rest -config ../local_ftrest.config -name entity_cache@127.0.0.1
 
