@@ -10,6 +10,10 @@ rm deps inside ft_rest
 make
 
 
+SQOR_DEPLOY_ENV=development  erl -pa ebin deps/*/ebin -s sqor_ft_rest -config rel/files/development.sys.config
+
+
+
 SqorWeb sockets
 
 
